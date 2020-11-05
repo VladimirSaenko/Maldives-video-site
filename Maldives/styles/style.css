@@ -7,7 +7,7 @@
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(/images/background.png);
+    background-image: url(images/background.png);
     /* background: url(/images/background.png) center cover; */
     position: relative;
     background-size: cover;
@@ -55,7 +55,6 @@
     margin-left: 10px;
     margin-bottom: 0px;
     margin-top: 7px; */
-
     margin: 7px 10px 0px;
 }
 
