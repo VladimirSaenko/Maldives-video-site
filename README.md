@@ -1,4 +1,4 @@
-# Maldives-site-
+# Maldives-video-site
 
 Небольшой видео-сайт с Мальдивами
 
