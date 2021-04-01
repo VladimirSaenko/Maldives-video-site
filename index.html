@@ -15,7 +15,6 @@
         <div class="logo">
             <img src="images/logo.png" alt="logo">
         </div>
-
         <div class="sidebar">
             <div class="text-box">
                 <h1>GOLDEN RESORT</h1>
@@ -27,7 +26,8 @@
             <h1>Maldives</h1>
             <p>Very Nice appartaments in the heart Maldives</p>
             <div class="btn" id="playbtn">
-                <img src="images/play.png" id="icon"> Watch Video
+                <img src="images/play.png" id="icon">
+                <h3 id="buttonText"></h3>
             </div>
         </div>
     </div>
@@ -35,15 +35,19 @@
         let backvideo = document.getElementById('backvideo');
         let playbtn = document.getElementById('playbtn');
         let icon = document.getElementById('icon');
+        let buttonText = document.getElementById('buttonText');
+
         playbtn.onclick = function () {
             backvideo.style.display = "block";
             if(backvideo.paused) {
                 backvideo.play();
                 icon.src = "images/play.png";
+                buttonText.innerHTML = "Play";
             }
             else {
                 backvideo.pause();
                 icon.src = "images/pause.png";
+                buttonText.innerHTML = "Pause";
             }
         }
     </script>
