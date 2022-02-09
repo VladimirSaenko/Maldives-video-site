@@ -142,7 +142,7 @@
     }
 }
 
-@media (max-width: 640px){
+@media (max-width: 640px) {
 * {
     user-select: none;
 }
@@ -180,10 +180,9 @@
     
 #icon {
     position: relative;
-    width: 50px;
     margin: 0;
     padding: 0;
-    right: 25px;
+    right: 5px;
 }
 
 #backvideo {
